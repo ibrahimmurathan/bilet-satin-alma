@@ -1,0 +1,7 @@
+## Klasör listelenmesini kapat (directory browsing)
+Options -Indexes
+
+# Belirtilen dosyalara doğrudan erişimi engelle
+<FilesMatch "(db.php)">
+    Require all denied
+</FilesMatch>

@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  web:
+    build:
+      context: ./Proje/bus_ticket_system
+    container_name: gorev-php
+    ports:
+      - "8080:80"
+    environment:
+      - SQLITE_PATH=/Tripin_database/Tripin.db
+    volumes:
+      - ./Proje/bus_ticket_system:/var/www/html:delegated
+      - ./Tripin_database:/Tripin_database:delegated
+    restart: unless-stopped

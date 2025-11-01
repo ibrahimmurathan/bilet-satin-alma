@@ -1,0 +1,60 @@
+/* Ortak stil: register & login sayfaları */
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #00416A, #E4E5E6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.register-container h2 {
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.register-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+.register-container input:focus {
+    border-color: #00416A;
+}
+
+.register-container button {
+    width: 100%;
+    padding: 12px;
+    background: #00416A;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.register-container button:hover {
+    background: #006BA6;
+}
+
+.register-container .alt-link {
+    margin-top: 15px;
+}
+
+.register-container .alt-link a {
+    color: #00416A;
+    text-decoration: none;
+}
